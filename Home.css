@@ -1,0 +1,253 @@
+body {
+    font-family: "Syne Mono", monospace;
+    margin: 0;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.4s ease, box-shadow 0.3s ease;
+}
+
+.navbar.navbar-scrolled {
+    background-color: #020d2e;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff7e5f !important;
+}
+
+
+.navbar-dark .dropdown-menu .dropdown-item {
+    color: white !important;
+    background-color: #020d2e !important;
+}
+
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+    background-color: #ff7e5f !important;
+    color: #fff !important;
+}
+
+.i {
+    background: linear-gradient(to bottom, #ff7e5f, #c84166);
+}
+
+.row1 {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 110px;
+    color: white;
+}
+
+.header-nav {
+    margin-right: 10px;
+}
+
+.card1 {
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+}
+
+.card1:hover {
+    background-color: #07085d;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+.gradient-color {
+    background: linear-gradient(to bottom, #ff7e5f, #c84166);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.section-border {
+    background: linear-gradient(to right, #ff7e5f, #c84166);
+    width: 200px;
+    height: 9px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.hover-shadow {
+    background-color: #fff;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+
+}
+
+.no-gutters {
+    margin-bottom: 10%;
+}
+
+.overlay-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.button1 {
+    background: linear-gradient(to right, #ff7e5f, #c84166);
+    color: white;
+    width: 35%;
+    height: 13%;
+    border-radius: 25px;
+    border:#ff7e5f ;
+
+}
+
+.button1:hover {
+    background: linear-gradient(to right, #ff7e5f, #f04236);
+}
+
+.our-team {
+    padding-top: 50px;
+}
+
+.section-lg {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.who-we-are {
+    padding-right: 10%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.overlay-secondary-half::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #07085d 60%, transparent);
+    padding-top: 20px;
+}
+
+.overlay-secondary-half {
+    position: relative;
+}
+
+.btn-lg {
+    color: white;
+    background: linear-gradient(to right, #ff7e5f, #c84166);
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 20px 90px;
+    margin-bottom: 40px;
+}
+
+.btn-lg:hover {
+    background: linear-gradient(to right, #ff7e5f, #f04236);
+    color: black;
+}
+
+.h3work {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.font {
+    font-family: Tahoma, serif;
+}
+
+.btn-outline-light {
+    background: linear-gradient(to right, #ff7e5f, #c84166);
+    color: white;
+    width: 50%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+.btn-outline-light:hover {
+    background: linear-gradient(to right, #ffffff, #c84166);
+    color: black;
+}
+
+.bottom-shape {
+    background-color: #07085d;
+    font-size: 15px;
+}
+.bottom-shape:hover {
+    background: linear-gradient(to right, #ff7e5f, #c84166);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.news{
+    display: flex;
+    margin: 10px 0px 20px 0px;
+    font-size: 23px;
+
+}
+.buttonNews{
+    color: #c84166;
+}
+.bg-secondary{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.form-control{
+    width: 80%;
+    height: 80px;
+    border: 0;
+    border-bottom: 1px solid #d2d2e2;
+}
+.px-0{
+    padding-left: 0 !important;
+}
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.social-icons li a {
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
